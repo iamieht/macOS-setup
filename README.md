@@ -1,4 +1,4 @@
-# macOS Setup
+# macOS Setup (Mojave)
 
 A collection of configuration steps (so I don't forget them) for my macOS development environment.
 
