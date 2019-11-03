@@ -6,9 +6,9 @@ A collection of configuration steps (so I don't forget them) for my macOS develo
 
 In **Apple Icon > System Preferences:**
 
-- Mouse -> Uncheck Scroll direction: Natural
-- Security & Privacy -> FileVault: Turn On
-- Security & Privacy -> Firewall: Turn On
+- **Mouse** -> Uncheck Scroll direction: Natural
+- **Security & Privacy** -> FileVault: Turn On
+- **Security & Privacy** -> Firewall: Turn On
 
 In **Finder**:
 
@@ -27,6 +27,18 @@ xcode-select --install
 ```
 
 ## Homebrew
+
+### Installation
+
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+Once installation is complete, run the following command to make sure everything works:
+
+```bash
+brew doctor
+```
 
 ## Git
 
