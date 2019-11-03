@@ -20,6 +20,12 @@ In **Finder**:
 
 ## Xcode
 
+For installing Xcode command line tools run:
+
+```bash
+xcode-select --install
+```
+
 ## Homebrew
 
 ## Git
