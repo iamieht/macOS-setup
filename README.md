@@ -44,6 +44,12 @@ brew doctor
 
 ## iTerm2
 
+### Installation
+
+```bash
+brew cask install iterm2
+```
+
 ## zsh & dotfiles
 
 ## Applications
