@@ -42,13 +42,31 @@ brew doctor
 
 ## Git
 
+```bash
+brew install git
+```
+
+Initial configuration:
+
+```bash
+git config --global user.name "Your Name Here"
+git config --global user.email "your_email@youremail.com"
+```
+
 ## iTerm2
 
-### Installation
+Installation:
 
 ```bash
 brew cask install iterm2
 ```
+
+Configuration:
+
+In **iTerm2 > Profiles:**:
+
+- Copy Default Profile
+- Window: Columns 125 / Rows: 35
 
 ## zsh & dotfiles
 
