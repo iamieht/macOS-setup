@@ -70,6 +70,25 @@ In **iTerm2 > Profiles:**:
 
 ## zsh & dotfiles
 
+**Install zsh**
+
+```bash
+brew install zsh
+```
+
+**Install Oh My Zsh**
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+**Set zsh as the default terminal environment**
+
+- Go to iTerm2 preferences.
+- Profiles -> General.
+- Paste /bin/zsh in the Command textbox and restart iTerm2.
+
+
 ## Applications
 
 ## Python
