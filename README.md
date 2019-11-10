@@ -98,14 +98,42 @@ cd ..
 rm -rf fonts
 ```
 
+**Install Powerlevel10k theme**
+
+Installation:
+
+```bash
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+````
+
+Set ZSH_THEME=powerlevel10k/powerlevel10k in your ~/.zshrc.
+
+Fonts:
+
+Recommended: Meslo Nerd Font patched for Powerlevel10k
+
+Download these four ttf files:
+
+- [MesloLGS NF Regular.ttf](https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Regular.ttf)
+- [MesloLGS NF Bold.ttf](https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Bold.ttf)
+- [MesloLGS NF Italic.ttf](https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Italic.ttf)
+- [MesloLGS NF Bold Italic.ttf](https://github.com/romkatv/dotfiles-public/raw/master/.local/share/fonts/NerdFonts/MesloLGS%20NF%20Bold%20Italic.ttf)
+
+Double-click on each file and press "Install". This will make MesloLGS NF font available to all applications on your system. Configure your terminal to use this font:
+
+- **iTerm2**: Type p10k configure, answer Yes when asked whether to install Meslo Nerd Font and restart iTerm2 for the changes to take effect. Alternatively, open iTerm2 → Preferences → Profiles → Text and set Font to MesloLGS NF.
+- **Visual Studio Code**: Open File → Preferences → Settings, enter terminal.integrated.fontFamily in the search box and set the value to MesloLGS NF.
+
 **Dotfiles**
 
 - [.gitconfig](https://raw.githubusercontent.com/iamieht/macOS-setup/master/dotfiles/.gitconfig)
 - [.zshrc](https://raw.githubusercontent.com/iamieht/macOS-setup/master/dotfiles/.zshrc)
+- [.p10k.zsh](https://raw.githubusercontent.com/iamieht/macOS-setup/master/dotfiles/.p10k.zsh)
 
 ```bash
 curl -O https://raw.githubusercontent.com/iamieht/macOS-setup/master/dotfiles/.gitconfig
 curl -O https://raw.githubusercontent.com/iamieht/macOS-setup/master/dotfiles/.zshrc
+curl -O https://raw.githubusercontent.com/iamieht/macOS-setup/master/dotfiles/.p10k.zsh
 ````
 
 ## Applications
