@@ -88,6 +88,25 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 - Profiles -> General.
 - Paste /bin/zsh in the Command textbox and restart iTerm2.
 
+**Install Powerline fonts**
+
+```bash
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+cd ..
+rm -rf fonts
+```
+
+**Dotfiles**
+
+- [.gitconfig](https://raw.githubusercontent.com/iamieht/macOS-setup/master/dotfiles/.gitconfig)
+- [.zshrc](https://raw.githubusercontent.com/iamieht/macOS-setup/master/dotfiles/.zshrc)
+
+```bash
+curl -O https://github.com/iamieht/macOS-setup/blob/master/dotfiles/.gitconfig
+curl -O https://raw.githubusercontent.com/iamieht/macOS-setup/master/dotfiles/.zshrc
+````
 
 ## Applications
 
