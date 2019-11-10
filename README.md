@@ -138,4 +138,30 @@ curl -O https://raw.githubusercontent.com/iamieht/macOS-setup/master/dotfiles/.p
 
 ## Applications
 
+**Browsers**
+
+- Firefox:
+
+```bash
+brew cask install firefox
+```
+
+- Chrome:
+
+```bash
+brew cask install google-chrome
+```
+
+**E-books Management**
+
+- Calibre:
+
+```bash
+brew cask install calibre
+```
+
+
+
+
+
 ## Python
