@@ -104,7 +104,7 @@ rm -rf fonts
 - [.zshrc](https://raw.githubusercontent.com/iamieht/macOS-setup/master/dotfiles/.zshrc)
 
 ```bash
-curl -O https://github.com/iamieht/macOS-setup/blob/master/dotfiles/.gitconfig
+curl -O https://raw.githubusercontent.com/iamieht/macOS-setup/master/dotfiles/.gitconfig
 curl -O https://raw.githubusercontent.com/iamieht/macOS-setup/master/dotfiles/.zshrc
 ````
 
