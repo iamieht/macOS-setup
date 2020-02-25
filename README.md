@@ -160,8 +160,52 @@ brew cask install google-chrome
 brew cask install calibre
 ```
 
-
-
-
-
 ## Python
+
+**Installing pyenv**
+- Build Dependencies:
+
+```bash
+brew install openssl readline sqlite3 xz zlib
+```
+
+- Using the pyenv-installer:
+
+```bash
+curl https://pyenv.run | bash
+```
+
+- Update .zshrc:
+
+```bash
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+```
+
+**Using pyenv to Install Python**
+```bash
+pyenv install --list
+pyenv install <python_version>
+```
+
+**Using Your New Python**
+```bash
+pyenv versions
+```
+
+- global: The global command sets the global Python version
+```bash
+pyenv global <python_version>
+python -m test
+```
+
+- local: The local command is often used to set an application-specific Python version
+```bash
+pyenv local <python_version>
+```
+
+- shell: The shell command is used to set a shell-specific Python version. This command activates the version specified by setting the PYENV_VERSION environment variable.
+```bash
+pyenv shell <python_version>
+```
